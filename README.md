@@ -15,11 +15,11 @@ Private discussions for your forum. Allows you to select specific recipients for
 
 Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) or install manually:
 
-    composer require flagrow/byobu
+    composer require byogu/byobu
 
 ## Updating
 
-    composer update flagrow/byobu
+    composer update byogu/byobu
     php flarum migrate
     php flarum cache:clear
 
