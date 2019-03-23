@@ -43,3 +43,21 @@
         }
     }
 }
+
+  "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "phpDocumentor/Parallel",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/phpDocumentor/Parallel.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
+    "require-dev": {
+        "phpDocumentor/Parallel": "master@dev",
+        "phing/phing" : "dev-master"
