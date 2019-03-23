@@ -3,7 +3,7 @@
     "description": "Well integrated, advanced private discussions.",
     "keywords": [
         "pm",
-        "flarum", "flagrow",
+        "flarum", "byogu",
         "messaging", "private discussions"
     ],
     "type": "flarum-extension",
