@@ -1,5 +1,5 @@
 {
-    "name": "flagrow/byobu",
+    "name": "byogu/byobu",
     "description": "Well integrated, advanced private discussions.",
     "keywords": [
         "pm",
@@ -16,8 +16,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/flagrow/byobu/issues",
-        "source": "https://github.com/flagrow/byobu"
+        "issues": "https://github.com/byogu/byobu/issues",
+        "source": "https://github.com/byogu/byobu"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.8"
@@ -39,7 +39,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Flagrow\\Byobu\\": "src/"
+            "Byogu\\Byobu\\": "src/"
         }
     }
 }
