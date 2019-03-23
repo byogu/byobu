@@ -1,0 +1,39 @@
+flagrow-byobu:
+    forum:
+        badges:
+            is_private:
+                tooltip: Özel Mesajlaþma
+        buttons:
+            add_recipients: Alýcýlar
+            submit: Tamam
+            edit_recipients: Alýcýlarý Düzenle
+            send_pd: "{username} için özel mesaj gönder"
+        labels:
+            recipients: "{count} Alýcý|{count} Alýcý"
+            user_deleted: -silindi-
+        nav:
+            private_discussions: Özel Mesajlaþma
+        input:
+            search_recipients: Ýlk 3 karakter ile alýcý arama...
+        search:
+            headings:
+                groups: Ýzin Grubu
+        modal:
+            titles:
+                update_recipients: {title} alýcýlarýný güncelle
+                add_recipients: Mesajlaþmaya alýcýlar ekle
+        post:
+            recipients_modified:
+                added_and_removed: "{username} alýcýlarý ekledi {added} ve sildi {removed}."
+                added: "{username} alýcýlarý ekledi {added}."
+                removed: "{username} alýcýlarý kaldýrdý {removed}."
+        user:
+            settings:
+                block_pd: Özel mesajlaþmayý kapat
+    admin:
+        permission:
+            create_private_discussions_with_users: Kiþilerle özel mesajlaþma baþlat
+            create_private_discussions_with_groups: Gruplarla özel mesajlaþma baþlat
+            create_private_discussions_with_blocking_users: Engellenmiþ kiþilerle özel mesajlaþma baþlat
+            edit_user_recipients: Mesajlaþmadaki kiþileri düzenle
+            edit_group_recipients: Mesajlaþmadaki gruplarý düzenle
